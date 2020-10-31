@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">Everybody Wants Some</title><subtitle type="html">人傻又健忘，记点什么</subtitle><updated>2020-10-31T10:41:04+00:00</updated><id>https://ews.ink/</id><link rel="alternate" type="text/html" href="https://ews.ink/"/><link rel="self" type="application/atom+xml" href="https://ews.ink/atom.xml"/><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator><entry><title type="text">Lordran - Let's Starve Together</title><link rel="alternate" type="text/html" href="https://ews.ink/game/dst-server-lordran/"/><id>https://ews.ink/game/dst-server-lordran/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-10-31T18:00:54+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">服务器使用的 mod 列表：Mods on Lordran。 包括下列 mod： Global Positions 全球定位 探索地图共……</summary><content type="html">&lt;p>服务器使用的 mod 列表：&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048193561">Mods on Lordran&lt;/a>。&lt;br>
+包括下列 mod：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=378160973">Global Positions&lt;/a> 全球定位
+&lt;ul>
+&lt;li>探索地图共享（而不必做地图桌）&lt;/li>
+&lt;li>地图显示玩家位置&lt;/li>
+&lt;li>远距离也会在屏幕边缘显示玩家指示器&lt;/li>
+&lt;li>&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Click&lt;/kbd> 可以在地图上创建标记&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=737932010">Damage Indicators&lt;/a> 极简伤害显示&lt;/li>
+&lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=375859599">Health Info&lt;/a> 显示血量（兼容下面的 &lt;code>Show Me&lt;/code>）&lt;/li>
+&lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=666155465">Show Me (Origin)&lt;/a> 鼠标指向显示更多信息&lt;br>
+本来此 mod 支持显血功能，但作者建议使用上面的 &lt;code>Health Info&lt;/code> 代替&lt;/li>
+&lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2032577827">更智能的雪球机&lt;/a> 关闭状态检测到火情自动开启 / 不会扑灭火堆&lt;/li>
+&lt;/ul>
+&lt;h3 id="相关设置">相关设置&lt;/h3>
+&lt;h4 id="打开游戏自动进入服务器">打开游戏自动进入服务器&lt;/h4>
+&lt;p>右键 Steam 库存中的「Don't Starve Together」，选择「属性」，默认的常规选项卡中有一个叫 &lt;code>设置启动选项…&lt;/code> 的按钮，输入&lt;/p>
+&lt;pre>&lt;code>+connect dst.game.osrp.run:21041 +password &amp;quot;密码&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>点击确定保存。&lt;br>
+从此以后启动游戏即可自动进入服务器。&lt;/p></content><category scheme="https://ews.ink/game/" term="game" label="game"/><category scheme="https://ews.ink/tags/steam/" term="Steam" label="Steam"/><category scheme="https://ews.ink/tags/dont-starve-together/" term="Don't Starve Together" label="Don't Starve Together"/></entry><entry><title type="text">Markdown 语法简单指南</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/markdown-syntax/"/><id>https://ews.ink/tech/markdown-syntax/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-07-29T15:23:06+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">灵感来源 本篇文章提供了一些能在 Hugo 的 content 文件中使用的基本 Markdown 语法的简单示例，同时也展示了基……</summary><content type="html">&lt;blockquote>
+&lt;p>&lt;a href="https://themes.gohugo.io//theme/hugo-theme-meme/post/markdown-syntax/">灵感来源&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>本篇文章提供了一些能在 Hugo 的 content 文件中使用的基本 Markdown 语法的简单示例，同时也展示了基础 HTML 元素在&lt;ruby>&lt;rb>本 Hugo 主题&lt;/rb>&lt;rp>（&lt;/rp>&lt;rt>MemE&lt;/rt>&lt;rp>）&lt;/rp>&lt;/ruby>中用 CSS 绘制后是什么效果。&lt;/p>
+&lt;h2 id="标题双关">标题（←双关）&lt;/h2>
+&lt;p>以下的 HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> 元素表示六个级别的分节标题。&lt;br>
+&lt;code>&amp;lt;h1&amp;gt;&lt;/code> 表示最顶级的标题，而 &lt;code>&amp;lt;h6&amp;gt;&lt;/code> 表示最细分的一级。&lt;/p>
+&lt;p>在 Markdown 语法中：&lt;br>
+标题一般简写为 &lt;code>#&lt;/code>，比如 &lt;code># 这是一个完整的 Markdown 标题 #&lt;/code>。&lt;br>
+并且位于右边的关闭标签可以省略，比如 &lt;code># 这是一个简写的 Markdown 标题&lt;/code>。&lt;/p>
+&lt;h1>H1&lt;/h1>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>H1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="gh"># H1 #
+&lt;/span>&lt;span class="gh"># H1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2>H2&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>H2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="gh"># H2 #
+&lt;/span>&lt;span class="gh"># H2
+&lt;/span>&lt;span class="gh">&lt;/span>之后以此类推
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3>H3&lt;/h3>
+&lt;h4>H4&lt;/h4>
+&lt;h5>H5&lt;/h5>
+&lt;h6>H6&lt;/h6>
+&lt;h2 id="段落">段落&lt;/h2>
+&lt;p>这种事情见得多了，我只想说懂得都懂，不懂的我也不多解释，毕竟自己知道就好，细细品吧。你们也别来问我怎么了，利益牵扯太大，说了对你我都没好处，当不知道就行了，其余的我只能说这里面水很深，牵扯到很多东西。详细情况你们自己是很难找的，网上大部分已经删除干净了，所以我只能说懂得都懂。懂的人已经基本都获利上岸什么的了，不懂的人永远不懂，关键懂的人都是自己悟的，你也不知道谁是懂的人也没法请教，大家都藏着掖着生怕别人知道自己懂事，懂了就能收割不懂的，你甚至都不知道自己不懂。只是在有些时候，某些人对某些事情不懂装懂，还以为别人不懂。其实自己才是不懂的，别人懂的够多了，不仅懂，还懂的超越了这个范围，但是某些不懂的人让这个懂的人完全教不懂，所以不懂的人永远不懂，只能不懂装懂，别人说懂的都懂，只要点点头就行了，懂了吗？&lt;/p>
+&lt;p>&lt;del>懂你吗呢&lt;/del>谜语人必被我成都百特曼亲手杀害。&lt;/p>
+&lt;h2 id="引用块">引用块&lt;/h2>
+&lt;p>引用块元素表示从其他来源引用的内容，可以选择使用包含在 &lt;code>footer&lt;/code> 或 &lt;code>cite&lt;/code> 元素里的引文出处，还可以选择在行内使用复杂格式（比如注释或者缩写等等）。&lt;/p>
+&lt;h3 id="不带出处的的引用块">不带出处的的引用块&lt;/h3>
+&lt;blockquote>
+&lt;p>人类的悲欢并不相通，我只觉得他们吵闹。&lt;br>
+&lt;strong>注意&lt;/strong> 你可以在引用块内使用 &lt;em>Markdown 语法&lt;/em>。&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">人类的悲欢并不相通，我只觉得他们吵闹。
+&lt;/span>&lt;span class="ge">&lt;/span>&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">**注意** 你可以在引用块内使用 *Markdown 语法*。
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="带有出处的引用块">带有出处的引用块&lt;/h3>
+&lt;blockquote>
+&lt;p>还是拉倒吧。&lt;br>
+&lt;cite>—— 鲁迅&lt;/cite>&lt;sup id="fnref:1">&lt;a href="https://ews.ink/tech/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>还是拉倒吧。&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">cite&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>—— 鲁迅&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">cite&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="表格">表格&lt;/h2>
+&lt;p>表格不是 Markdown 核心规范的一部分，但是 Hugo 支持开箱即用。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">|Name|Age|
+|-|-|
+|Bob|27|
+|Alice|23|
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="行内含有-markdown-格式的表格">行内含有 Markdown 格式的表格&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>Italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>Bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>Code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">|Italics|Bold|Code|
+|-|-|-|
+|*Italics*|**Bold**|`Code`|
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="代码块">代码块&lt;/h2>
+&lt;h3 id="带有行号和高亮的代码块">带有行号和高亮的代码块&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="啥都没有的代码块">啥都没有的代码块&lt;/h3>
+&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>&lt;h2 id="列表">列表&lt;/h2>
+&lt;h3 id="有序列表">有序列表&lt;/h3>
+&lt;ol>
+&lt;li>First Blood&lt;/li>
+&lt;li>First Blood 2&lt;/li>
+&lt;li>First Blood 3&lt;/li>
+&lt;li>First Blood 4&lt;/li>
+&lt;li>Rampage&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="k">1.&lt;/span> First Blood
+&lt;span class="k">2.&lt;/span> First Blood 2
+&lt;span class="k">3.&lt;/span> First Blood 3
+&lt;span class="k">4.&lt;/span> First Blood 4
+&lt;span class="k">5.&lt;/span> Rampage
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="无序列表">无序列表&lt;/h3>
+&lt;ul>
+&lt;li>闪烁匕首&lt;/li>
+&lt;li>Eul 的神圣法杖&lt;/li>
+&lt;li>原力法杖&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="k">*&lt;/span> 闪烁匕首
+&lt;span class="k">-&lt;/span> Eul 的神圣法杖
++ 原力法杖
+这三种格式都可以，但注意不能同时混用，如果混用算作不同的列表。
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="多级列表">多级列表&lt;/h3>
+&lt;ul>
+&lt;li>物品法球
+&lt;ul>
+&lt;li>支配头盔&lt;/li>
+&lt;li>斯嘉蒂之眼&lt;/li>
+&lt;li>漩涡&lt;/li>
+&lt;li>黯灭&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>英雄法球
+&lt;ul>
+&lt;li>冥界亚龙 - 毒性攻击&lt;/li>
+&lt;li>沉默术士 - 智慧之刃&lt;/li>
+&lt;li>敌法师 - 法力损毁&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="k">*&lt;/span> 物品法球
+&lt;span class="k">-&lt;/span> 支配头盔
+&lt;span class="k">-&lt;/span> 斯嘉蒂之眼
+&lt;span class="k">-&lt;/span> 漩涡
+&lt;span class="k">-&lt;/span> 黯灭
+&lt;span class="k">*&lt;/span> 英雄法球
++ 冥界亚龙 - 毒性攻击
++ 沉默术士 - 智慧之刃
++ 敌法师 - 法力损毁
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="其他元素--abbr-sub-sup-kbd-mark-ruby">其他元素 — abbr, sub, sup, kbd, mark, ruby&lt;/h2>
+&lt;p>&lt;abbr title="有一说一">u1s1&lt;/abbr> 是一种批话缩写。&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>按下 &lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd> 呼出安全选项菜单，按下 &lt;kbd>CTRL&lt;/kbd>+&lt;kbd>SHIFT&lt;/kbd>+&lt;kbd>ESC&lt;/kbd> 直接打开任务管理器。&lt;/p>
+&lt;p>—— &lt;mark>芷若&lt;/mark>，我对你一向敬重爱慕、心存感激，对&lt;mark>殷家表妹&lt;/mark>是可怜她的遭遇、同情她的痴情，对&lt;mark>小昭&lt;/mark>是意存怜惜、情不自禁的爱护，但对&lt;mark>赵姑娘&lt;/mark>却是……却是铭心刻骨的相爱。&lt;/p>
+&lt;p>&lt;img src="https://i.loli.net/2020/07/29/2JOETdDLhHcpNrI.png" alt="敏敏">&lt;/p>
+&lt;p>—— &lt;ruby>&lt;rb>张无忌&lt;/rb>&lt;rp>（&lt;/rp>&lt;rt>tiě zhā nán&lt;/rt>&lt;rp>）&lt;/rp>&lt;/ruby>，&lt;ruby>&lt;rb>我爱你&lt;/rb>&lt;rp>（&lt;/rp>&lt;rt>c n m&lt;/rt>&lt;rp>）&lt;/rp>&lt;/ruby>。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Markdown" data-lang="Markdown">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">abbr&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;有一说一&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>u1s1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">abbr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> 是一种批话缩写。
+H&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">sub&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">sub&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>O
+X&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>n&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> + Y&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>n&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> = Z&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>n&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+按下 &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>CTRL&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>ALT&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Delete&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> 呼出安全选项菜单，按下 &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>CTRL&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>SHIFT&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>ESC&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">kbd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> 直接打开任务管理器。
+—— &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>芷若&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>，我对你一向敬重爱慕、心存感激，对&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>殷家表妹&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>是可怜她的遭遇、同情她的痴情，对&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>小昭&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>是意存怜惜、情不自禁的爱护，但对&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>赵姑娘&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">mark&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>却是……却是铭心刻骨的相爱。
+![&lt;span class="nt">敏敏&lt;/span>](&lt;span class="na">https://i.loli.net/2020/07/29/2JOETdDLhHcpNrI.png&lt;/span>)
+—— &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rb&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>张无忌&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rb&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>（&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>tiě zhā nán&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>）&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>，&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rb&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>我爱你&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rb&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>（&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>c n m&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>）&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rp&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>。
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>鲁迅《致杨霁云》 1934.12.13 &lt;a href="https://ews.ink/tech/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/markdown/" term="Markdown" label="Markdown"/></entry><entry><title type="text">利用 Github Action 实现持续集成 / 自动部署 #2</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/blog-deploy-2/"/><id>https://ews.ink/tech/blog-deploy-2/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-07-02T16:49:24+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">通过 前文 的梳理我们弄清楚了完整流程，本篇文章将详细介绍具体如何实现。 首先简单介绍一下……</summary><content type="html">&lt;p>通过 &lt;a href="https://ews.ink/tech/blog-deploy-1/">前文&lt;/a> 的梳理我们弄清楚了完整流程，本篇文章将详细介绍具体如何实现。&lt;/p>
+&lt;hr>
+&lt;p>首先简单介绍一下 Github Action 如何使用：&lt;br>
+在仓库根目录下建立 &lt;code>.github/workflows&lt;/code> 文件夹，这个文件夹里配置正确符合语法的工作流会根据条件自动执行。&lt;/p>
+&lt;p>因此我们在写作仓库建立如下结构：&lt;/p>
+&lt;pre>&lt;code>Blog Repo/ 写作仓库根目录
+├── .github/
+│ ├── workflows/ 默认 Github Action 工作流 目录
+│ │ └── build.yml 写作仓库的 Action 执行的工作流文件
+│ └── second_action/
+│ └── sync.yml 分发仓库的 Action 执行的工作流文件
+└── ...
+&lt;/code>&lt;/pre>&lt;p>&lt;code>build.yml&lt;/code> 文件的内容为：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>Hugo&lt;span class="w"> &lt;/span>Blog&lt;span class="w"> &lt;/span>CI&lt;span class="w"> &lt;/span>&lt;span class="c"># 本workflow名字 随便取&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># hook 触发器&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 每次push时触发钩子&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- master&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 每当master分支有push动作时 运行此workflow&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="k">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 具体有哪些任务&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 任务名 随便取&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>ubuntu-latest&lt;span class="w"> &lt;/span>&lt;span class="c"># 申请何种系统的虚拟机&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 本任务具体有哪些步骤&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>.&lt;span class="w"> &lt;/span>Checkout&lt;span class="w"> &lt;/span>Repo&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 第1步 clone本仓库到虚拟机上&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>actions/checkout@v2&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">2&lt;/span>.&lt;span class="w"> &lt;/span>Setup&lt;span class="w"> &lt;/span>Hugo&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 第2步 在虚拟机上安装Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>peaceiris/actions-hugo@v2&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;0.73.0&amp;#39;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Hugo 版本&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">extended&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 是否安装扩展 视你的主题而定 一般来说true没问题&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>.&lt;span class="w"> &lt;/span>Generate&lt;span class="w"> &lt;/span>Public&lt;span class="w"> &lt;/span>Files&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 第3步 编译生成静态文件&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="sd">|
+&lt;/span>&lt;span class="sd"> hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">4&lt;/span>.&lt;span class="w"> &lt;/span>Copy&lt;span class="w"> &lt;/span>Dist&lt;span class="w"> &lt;/span>Github&lt;span class="w"> &lt;/span>Action&lt;span class="w"> &lt;/span>Workflow&lt;span class="w"> &lt;/span>File&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 重点 第4步 将准备好的分发仓库的workflow文件复制到public/目录下一起push&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="sd">|
+&lt;/span>&lt;span class="sd"> mkdir -p public/.github/workflows/&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>cp&lt;span class="w"> &lt;/span>.github/second_action/sync.yml&lt;span class="w"> &lt;/span>public/.github/workflows/sync.yml&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>ls&lt;span class="w"> &lt;/span>-a&lt;span class="w"> &lt;/span>public&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 如果要使用 peaceiris/actions-gh-pages@v3 携带分发仓库的workflow一起push的方法就不能用了&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 取消此步骤的注释 以直接在写作仓库的workflow中同步到生产环境&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># - name: 4.5. Deploy to Server via Rsync&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># uses: burnett01/rsync-deployments@4.1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># with:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># switches: -avzr --delete --exclude=&amp;#34;.git&amp;#34; --exclude=&amp;#34;.github&amp;#34; --exclude=.well-known&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># path: ./&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># remote_path: ${{ secrets.DEPLOY_TARGET }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># remote_host: ${{ secrets.DEPLOY_HOST }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># remote_user: ${{ secrets.DEPLOY_USER }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># remote_key: ${{ secrets.DEPLOY_KEY }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">5&lt;/span>.&lt;span class="w"> &lt;/span>Distribution&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 第5步 将生成的静态文件push到分发仓库&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 2020.7.2 若使用 peaceiris/actions-gh-pages@v3 将无法push名为&amp;#34;.github&amp;#34;的文件夹&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 因此继续沿用 v2.5.1 版本&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>peaceiris/actions-gh-pages@v2&lt;span class="m">.5.1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">deploy_key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>${{&lt;span class="w"> &lt;/span>secrets.ACTIONS_DEPLOY_KEY&lt;span class="w"> &lt;/span>}}&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">external_repository&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>你的Github用户名/分发仓库名字&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>master&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>./public&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">env&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># v2.5.1版本特有的环境变量 v3版本中改为上面的with携带并重新命名&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">ACTIONS_DEPLOY_KEY&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>${{&lt;span class="w"> &lt;/span>secrets.ACTIONS_DEPLOY_KEY&lt;span class="w"> &lt;/span>}}&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">EXTERNAL_REPOSITORY&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>你的Github用户名/分发仓库名字&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">PUBLISH_BRANCH&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>master&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">PUBLISH_DIR&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>./public&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>差不多逐行注释了，如有不理解的地方对照注释即可。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;code>${{ secrets.XXX }}&lt;/code> 在仓库的 &lt;code>Settings&lt;/code> 页面中的 &lt;code>Secrets&lt;/code> 项里设置。&lt;br>
+生成好密钥对，公钥放在 &lt;code>分发仓库&lt;/code> 的 &lt;code>Deploy keys&lt;/code> 项（记得勾上 &lt;code>Allow write access&lt;/code> 不然虚拟机拿不到 push 权限），私钥放在 &lt;code>写作仓库&lt;/code> 的 &lt;code>Secrets&lt;/code> 项。&lt;br>
+如果还有更基础的用法不清楚如何使用请自行搜索，此处不再赘述。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;code>sync.yml&lt;/code> 文件的内容为：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>Hugo&lt;span class="w"> &lt;/span>Blog&lt;span class="w"> &lt;/span>CD&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- master&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="k">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">sync&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>ubuntu-latest&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>.&lt;span class="w"> &lt;/span>Checkout&lt;span class="w"> &lt;/span>Repo&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>actions/checkout@v2&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="k">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">2&lt;/span>.&lt;span class="w"> &lt;/span>Deploy&lt;span class="w"> &lt;/span>to&lt;span class="w"> &lt;/span>Server&lt;span class="w"> &lt;/span>via&lt;span class="w"> &lt;/span>Rsync&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>burnett01/rsync-deployments@&lt;span class="m">4.1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">switches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>-avzr&lt;span class="w"> &lt;/span>--delete&lt;span class="w"> &lt;/span>--exclude=&lt;span class="s2">&amp;#34;.git&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>--exclude=&lt;span class="s2">&amp;#34;.github&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>--exclude=.well-known&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>./&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 绝对路径 比如/usr/www/wwwroot/blog&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">remote_path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>${{&lt;span class="w"> &lt;/span>secrets.DEPLOY_TARGET&lt;span class="w"> &lt;/span>}}&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 主机地址 域名和IP都支持&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 注意如果使用了CDN的话必须填IP 否则按照域名解析不到真实服务器IP&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">remote_host&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>${{&lt;span class="w"> &lt;/span>secrets.DEPLOY_HOST&lt;span class="w"> &lt;/span>}}&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 用户名 建议不要使用root&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">remote_user&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>${{&lt;span class="w"> &lt;/span>secrets.DEPLOY_USER&lt;span class="w"> &lt;/span>}}&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 上面的用户SSH登录的私钥&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">remote_key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>${{&lt;span class="w"> &lt;/span>secrets.DEPLOY_KEY&lt;span class="w"> &lt;/span>}}&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其实就是 &lt;code>build.yml&lt;/code> 中的第 4.5 步。&lt;/p>
+&lt;p>如果博客托管的地方不是云服务器，而是存储桶或者别的什么对象存储服务的话，随便搜索一下一般都找得到对应的 Github Action Repo，按照正确语法自行替换即可。&lt;/p></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/blog/" term="Blog" label="Blog"/><category scheme="https://ews.ink/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="https://ews.ink/tags/github-action/" term="Github Action" label="Github Action"/></entry><entry><title type="text">利用 Github Action 实现持续集成 / 自动部署 #1</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/blog-deploy-1/"/><id>https://ews.ink/tech/blog-deploy-1/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-07-02T14:34:40+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">废话不多说，直接简述一下我想实现的工作流： graph TD A(本地写作) --|命令行运行 `git push`| B[git push……</summary><content type="html">&lt;p>废话不多说，直接简述一下我想实现的工作流：&lt;/p>
+&lt;div class="mermaid" align="center">
+graph TD
+A(本地写作) -->|命令行运行 `git push`| B[git push 动作]
+B --> |提交到 Github| C[Github Repo 写作仓库]
+C --> |检测到 Repo 中 有 .github/ 目录 将执行其中的 workflow| D[Github Action]
+B --> |触发 hook| D
+D --> |自动申请虚拟机|E[Ubuntu 虚拟机]
+E --> |运行 `hugo` 编译生成 public/ &lt;br /> 这一步是在 .github/ 目录下的 workflow 中写好了的| F(静态网页文件)
+&lt;/div>
+&lt;p>稍微打断一下，按理说，以上就是利用 Github Action 云端编译静态文件的流程了，接下来的工作只剩下把生成的静态文件部署到你的服务器 / 对象存储上。&lt;/p>
+&lt;p>但我要的不仅只是这些流程，我想要的是足够解耦但完整的从发布到部署的所有流程。所以我准备建立两个 Repo：&lt;/p>
+&lt;ul>
+&lt;li>meta 的&lt;strong>写作仓库&lt;/strong>：私有，我在本地写作完毕后 push 的就是这个仓库，记录了我编辑博客的一举一动。&lt;/li>
+&lt;li>dist 的&lt;strong>分发仓库&lt;/strong>：公开，用以存放生成后的静态网页文件。这个仓库实现了对发布之后的网站进行完整的版本管理。&lt;/li>
+&lt;/ul>
+&lt;p>乍一看好像没什么意义，感觉是为了折腾而折腾，其实不然。&lt;br>
+这种架构有几个好处：&lt;/p>
+&lt;ol>
+&lt;li>比如某些草稿我暂时并不想发布，但同时又想对这些草稿做版本管理，使用私有的写作仓库就很好的解决了这种需求。不然我要如何管理不想公开的草稿呢？另建一个私有仓库手动管理吗？&lt;/li>
+&lt;li>利用公开的分发仓库，我可以在任意时间任意地点轻易地将博客回滚到任意一个版本，而不必再去写作仓库翻找出某个版本然后重新编译。&lt;/li>
+&lt;li>利用分发仓库的 Github Pages，不需要任何服务器成本，我就可以长期保持一个永远同步的热备份。（虽然 Github Pages 的访问速度不敢恭维）&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>吐槽一下，自从微软接手 Github 之后，&lt;a href="https://www.githubstatus.com/">在线率&lt;/a> 实在堪忧，以前基本全绿的。&lt;/p>
+&lt;/blockquote>
+&lt;p>搞清楚需求和实现方案之后很容易就能写出接下来的流程：&lt;/p>
+&lt;div class="mermaid" align="center">
+graph TD
+Start(接上) --> A
+A[写作仓库的 Github Action] --> |自动申请虚拟机|B[Ubuntu 虚拟机 #1]
+B --> |运行 `hugo` 编译生成 public/ &lt;br /> 这一步是在 .github/ 目录下的 workflow 中写好了的| C[静态网页文件]
+B --> D[将生成的静态文件 push 到分发仓库]
+C --> D
+D -->|虚拟机 #1 运行 `git push`| E[第二次 git push 动作]
+E --> |提交到 Github| F[Github Repo 分发仓库]
+F --> |检测到 Repo 中 有 .github/ 目录 将执行其中的 workflow| G[分发仓库的 Github Action]
+E --> |触发 hook| G
+G --> |自动申请虚拟机|H[Ubuntu 虚拟机 #2]
+H --> |将整个分发仓库同步到你的服务器 / 对象存储| I(博客更新)
+&lt;/div>
+&lt;p>以上流程看起来繁琐，实际上完成之后是一劳永逸的事情。&lt;br>
+虽然麻烦一些，前期工作完成之后基本就是纯粹的享受写作了——&lt;/p>
+&lt;ul>
+&lt;li>我在本地写作完毕，只需要 push 一下，其他什么都不用管，几分钟后在线版本就自动更新了。里面的自动化工作流再复杂我也感知不到，反正不需要我人工完成。&lt;/li>
+&lt;li>在更新博客的过程中，我可以随时随地以轻松自在的心态记录一些临时的笔记，或者完成度过低难以发布的草稿，并且对其进行版本管理。&lt;/li>
+&lt;li>我发现博客内容有某个部分出现重大纰漏，不需要暂时下线博客，也不需要心忙意乱地完成一系列补救工作&lt;sup id="fnref:1">&lt;a href="https://ews.ink/tech/blog-deploy-1/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。我只需要在分发仓库找到对应版本，回滚，重新 push，剩下的工作全部都会自动完成。在这之后继续更新博客也不需要额外措施，直接照常 push 写作仓库就是。&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>一系列补救工作：根据各种线索推理出更新出错部分的时间和标志，然后去写作仓库里翻找出需要的版本，回滚之后重新编译，把重新生成的静态文件上传，之后再把写作仓库回滚到最新版本。 &lt;a href="https://ews.ink/tech/blog-deploy-1/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/blog/" term="Blog" label="Blog"/><category scheme="https://ews.ink/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="https://ews.ink/tags/github-action/" term="Github Action" label="Github Action"/></entry><entry><title type="text">Always Sometimes Monsters</title><link rel="alternate" type="text/html" href="https://ews.ink/life/who-am-i/"/><id>https://ews.ink/life/who-am-i/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-06-30T14:25:24+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">我这个人是个自私自利，一点也不纯粹，德行或许有亏，尚未脱离低级趣味，也未必有益于人民……</summary><content type="html">&lt;p>我这个人是个自私自利，一点也不纯粹，德行或许有亏，尚未脱离低级趣味，也未必有益于人民的，&lt;strong>普通人&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;p>喜欢&lt;strong>折腾&lt;/strong>，喜欢研究 IT 技术。与什么方向或者什么语言都无关，我只是特别钟爱从零到一平地起高楼的无中生有。&lt;/p>
+&lt;p>我热爱创作。&lt;sup id="fnref:1">&lt;a href="https://ews.ink/life/who-am-i/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>喜欢&lt;strong>阅读&lt;/strong>，喜欢本格推理，喜欢冒险传奇，喜欢意料之外却在情理之中的展开，喜欢逻辑自洽的剧情。然而我并不会把某些主题奉为圭臬，其实只要是有趣的故事，怎样都好。只不过带有之前提到的那些关键词的书本，能更吸引我翻开封面。&lt;/p>
+&lt;p>文字是极其无力的表达工具，以文字来承载作者试图传达给读者的其实难以言述的思想，这本身就是一件悲壮到堪称凄美的事情。&lt;/p>
+&lt;hr>
+&lt;p>喜欢&lt;strong>游戏&lt;/strong>，从 3A 大作到独立小品，从主机独占到街机模拟，从动捕到手绘，从光追到像素，从 UNO 到斗地主，从大逃杀到跑团，从大富翁到战旗，从丢沙包到跳格子，无论是什么玩法什么画面什么体量，我喜欢一切类型一切形式的游戏。&lt;/p>
+&lt;p>我喜欢他人费尽心血（也许未必）创作出来最终目的却只是纯粹（大部分时候）地让你获得美的享受的作品本身，以及和游戏作者在约定好的规则下游玩并在途中获得快乐的过程。&lt;/p>
+&lt;p>我欣赏游戏第一位永远是游戏性，然后才是艺术性。&lt;sup id="fnref:2">&lt;a href="https://ews.ink/life/who-am-i/#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;blockquote>
+&lt;p>游戏通关后滚动的感谢列表最后显示「AND YOU」我真的会感动。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>喜欢&lt;strong>胡思乱想&lt;/strong>，喜欢用独属于我的角度来观察世界。我清楚地明白自己是一个普通人，和其他普通人一样也很难避免从众心理，但我会尽力做到不去盲从。&lt;/p>
+&lt;p>我不会把自己认知的道德标准强加给他人，不会愤世嫉俗也不会避世离俗。我崇尚&lt;strong>真正&lt;/strong>理智、中立、客观的观点，厌恶现在一般语境下的「理中客」。&lt;sup id="fnref:3">&lt;a href="https://ews.ink/life/who-am-i/#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>我是一个普通人，我也会悲伤，也会愤怒，也会恐惧，也会迷惘，也会和普通人同样有不理智的时刻，..心中有时候也会有难以名状的怪物逡巡..。&lt;/p>
+&lt;p>不过我敢说我是遵循公序良俗的守法公民；其中肯定有表演成分，但我尽力去做了，以后也会继续努力。如果难以为社会作出贡献，至少不要危害社会，共勉。&lt;/p>
+&lt;hr>
+&lt;p>理解并认同&lt;strong>女权&lt;/strong>（指女性平权）。因为人人生而平等，女人当然是人。&lt;/p>
+&lt;p>为什么不是特权？因为男人也是人，跨性别者也是人。我再重复一遍——&lt;br>
+&lt;strong>人人生而平等。&lt;/strong>&lt;/p>
+&lt;p>..假如..女性具有特权：&lt;/p>
+&lt;ul>
+&lt;li>我生理性别为女但心理性别为男，我能享有女性特权吗？&lt;/li>
+&lt;li>我生理性别为男而心理性别为女，我能享有女性特权吗？&lt;/li>
+&lt;li>我生下来就是双性人，我也不知道我心理性别是男是女（&lt;del>不会有拳师对这里打男女先后顺序的拳吧&lt;/del>），我能享有女性特权吗？&lt;/li>
+&lt;/ul>
+&lt;p>性别优势是几千年来自然形成的，不同性别互补互助，所有有性生物都是这么繁衍到今天的；而什么性别特权，不该存在也不会存在。&lt;/p>
+&lt;p>你管我是什么人，只要我是个人，我就与你一样享有一切自然人理应享有的人权。&lt;/p>
+&lt;hr>
+&lt;p>理解并认同 &lt;strong>LGBTQ&lt;/strong> 群体。&lt;/p>
+&lt;p>虽然 &lt;a href="https://www.sciencemag.org/news/2019/08/genetics-may-explain-25-same-sex-behavior-giant-analysis-reveals">2019.9.2 的《Science》&lt;/a> 提到大概仅有约 25% 同性恋是先天的，不过我认为无论是先天还是后天都不重要，自己的性取向应该是生而为人不可被剥夺的自由意志。&lt;/p>
+&lt;hr>
+&lt;p>厌恶学了个梗拉 shi 都想用上的梗小鬼，厌恶怎么看都不可能会有路人缘但就是莫名其妙火了的恶俗&lt;strong>烂梗&lt;/strong>。&lt;/p>
+&lt;p>一个 meme（姑且算它是），既不有趣也没什么思辩价值，甚至带有攻击性，乍一看阴阳怪气&lt;sup id="fnref:4">&lt;a href="https://ews.ink/life/who-am-i/#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>，细一想纯属引战起手式，为什么还要传播？我知道大家都在转运垃圾，但你不转真的就不如他们吗？&lt;/p>
+&lt;blockquote>
+&lt;p>我不是什么玩梗婆罗门，也从不在网上出警，在我的一亩三分地上吐槽几句没问题吧。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>厌恶目前（2020 年）无限扩张的侵入式&lt;strong>政治正确&lt;/strong>，现在的政治正确跟文革有什么区别？&lt;strong>过犹不及&lt;/strong>的道理我不信里面的大人物没有一个人懂。&lt;/p>
+&lt;p>政治正确的大潮下一些不知道是皈依者狂热还是反社会分子的人裹挟一大群没有任何思考能力只能人云亦云的伤残人士到处碰瓷拱火立靶子打，真的恶心。&lt;/p>
+&lt;hr>
+&lt;p>极度厌恶&lt;strong>钓鱼&lt;/strong>（指网络讨论中自演引战的行为）。&lt;/p>
+&lt;p>我分不清其究竟是在钓鱼还是真弱智的傻逼玩意，我一律视为弱智处理。&lt;/p>
+&lt;hr>
+&lt;p>如果你觉得我某个部分的观点有失妥当，十分欢迎（我真心的）告诉我你的看法。我很乐意从谏如流求同存异，毕竟&lt;strong>兼听则明&lt;/strong>。&lt;/p>
+&lt;p>但完全不必抱着..你这样不行.. / ..一定要改..的心态试图「纠正」我。强行灌输给我真的没必要，对你对我都不好，毕竟&lt;strong>偏信则暗&lt;/strong>。&lt;/p>
+&lt;p>如果三观实在有冲突就不要互相伤害了。世界那么大，这世上人那么多，擦肩而过可能真的就碧落黄泉&lt;sup id="fnref:5">&lt;a href="https://ews.ink/life/who-am-i/#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>两皆不见了，放过彼此如何？&lt;/p>
+&lt;p>我是 Sumi，我们有缘再见。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>与之相对的，我厌恶并唾弃抄袭。有意 / 无意中不留出处的转载，也很难苟同。 &lt;a href="https://ews.ink/life/who-am-i/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>游戏性和艺术性二者&lt;strong>可以&lt;/strong>不兼得。比如与其说是游戏，实际上分类为互动电影或是视觉小说更为恰当的作品，只要富有我能够欣赏的艺术价值，对我来说也可以算好游戏。etc &lt;em>Disco Elysium&lt;/em> &lt;a href="https://ews.ink/life/who-am-i/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>我认为基于个人身份讨论什么事的时候，一开始就试图把自己摆在一个处于不败之地的立场，十分不利于讨论环境。&lt;br>
+如果真心要辩论，双方都是要下场用论点论据肉搏的。有任何一方想着独善其身一味高高在上颐气指使，别说在辩论中达成共识，基本的交流都无法成立；如果双方都只顾自说自话，所谓的「交流意见」不过是两条平行线罢了，连愈行愈远的可能都没有，因为二者间不会产生任何一个相交点。&lt;br>
+「我不想亲自下场，我只是想占据道德高点自顾自地输出我的看法，随便你接不接受，不过你最好接受，因为你接受了我会开心」，请这位杠精从哪来的回哪里好吗，别把哪都当你的麻将桌。 &lt;a href="https://ews.ink/life/who-am-i/#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>阴阳怪气：现在很多语境下都用成中性词，甚至是褒义词了，形容人说话机智有趣诙谐幽默有讽刺性。&lt;br>
+此处用作贬义，指的是「太监总管依仗权势欺压忠良之后」那种阴阳怪气。 &lt;a href="https://ews.ink/life/who-am-i/#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>碧落黄泉：「上穷碧落下黄泉，两处茫茫皆不见。」——白居易《长恨歌》&lt;br>
+从碧落到黄泉，不是谁在碧落谁在黄泉的问题，没有冒犯的意思。 &lt;a href="https://ews.ink/life/who-am-i/#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></content><category scheme="https://ews.ink/life/" term="life" label="life"/><category scheme="https://ews.ink/tags/sumi/" term="Sumi" label="Sumi"/></entry></feed>
