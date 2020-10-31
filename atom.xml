@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">Everybody Wants Some</title><subtitle type="html">人傻又健忘，记点什么</subtitle><updated>2020-10-31T10:41:04+00:00</updated><id>https://ews.ink/</id><link rel="alternate" type="text/html" href="https://ews.ink/"/><link rel="self" type="application/atom+xml" href="https://ews.ink/atom.xml"/><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator><entry><title type="text">Lordran - Let's Starve Together</title><link rel="alternate" type="text/html" href="https://ews.ink/game/dst-server-lordran/"/><id>https://ews.ink/game/dst-server-lordran/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-10-31T18:00:54+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">服务器使用的 mod 列表：Mods on Lordran。 包括下列 mod： Global Positions 全球定位 探索地图共……</summary><content type="html">&lt;p>服务器使用的 mod 列表：&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048193561">Mods on Lordran&lt;/a>。&lt;br>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">Everybody Wants Some</title><subtitle type="html">人傻又健忘，记点什么</subtitle><updated>2020-10-31T11:23:10+00:00</updated><id>https://ews.ink/</id><link rel="alternate" type="text/html" href="https://ews.ink/"/><link rel="self" type="application/atom+xml" href="https://ews.ink/atom.xml"/><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator><entry><title type="text">Lordran - Let's Starve Together</title><link rel="alternate" type="text/html" href="https://ews.ink/game/dst-server-lordran/"/><id>https://ews.ink/game/dst-server-lordran/</id><updated>2020-10-31T11:23:07+00:00</updated><published>2020-10-31T18:00:54+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">服务器使用的 mod 列表：Mods on Lordran。 包括下列 mod： Global Positions 全球定位 探索地图共……</summary><content type="html">&lt;p>服务器使用的 mod 列表：&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048193561">Mods on Lordran&lt;/a>。&lt;br>
 包括下列 mod：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=378160973">Global Positions&lt;/a> 全球定位
@@ -20,7 +20,92 @@
 &lt;p>右键 Steam 库存中的「Don't Starve Together」，选择「属性」，默认的常规选项卡中有一个叫 &lt;code>设置启动选项…&lt;/code> 的按钮，输入&lt;/p>
 &lt;pre>&lt;code>+connect dst.game.osrp.run:21041 +password &amp;quot;密码&amp;quot;
 &lt;/code>&lt;/pre>&lt;p>点击确定保存。&lt;br>
-从此以后启动游戏即可自动进入服务器。&lt;/p></content><category scheme="https://ews.ink/game/" term="game" label="game"/><category scheme="https://ews.ink/tags/steam/" term="Steam" label="Steam"/><category scheme="https://ews.ink/tags/dont-starve-together/" term="Don't Starve Together" label="Don't Starve Together"/></entry><entry><title type="text">Markdown 语法简单指南</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/markdown-syntax/"/><id>https://ews.ink/tech/markdown-syntax/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-07-29T15:23:06+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">灵感来源 本篇文章提供了一些能在 Hugo 的 content 文件中使用的基本 Markdown 语法的简单示例，同时也展示了基……</summary><content type="html">&lt;blockquote>
+从此以后启动游戏即可自动进入服务器。&lt;/p></content><category scheme="https://ews.ink/game/" term="game" label="game"/><category scheme="https://ews.ink/tags/steam/" term="Steam" label="Steam"/><category scheme="https://ews.ink/tags/dont-starve-together/" term="Don't Starve Together" label="Don't Starve Together"/></entry><entry><title type="text">Commit Message 规范</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/commit-message/"/><id>https://ews.ink/tech/commit-message/</id><updated>2020-10-31T11:23:07+00:00</updated><published>2020-10-28T19:10:36+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Commit Message 规范 规范这种事一般是赢家通吃的，也没什么好标新立异的，好用就行了。 基本上唯一的选……</summary><content type="html">&lt;h1 id="commit-message-规范">Commit Message 规范&lt;/h1>
+&lt;p>规范这种事一般是赢家通吃的，也没什么好标新立异的，好用就行了。&lt;br>
+基本上唯一的选择，约定式提交（Conventional Commits）规范。&lt;br>
+（本文写就时）最新的&lt;a href="https://www.conventionalcommits.org/zh-hans/v1.0.0-beta.4/">文档&lt;/a>。&lt;/p>
+&lt;h2 id="标准格式">标准格式&lt;/h2>
+&lt;pre>&lt;code>&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;footer&amp;gt;
+&lt;/code>&lt;/pre>&lt;h2 id="类型-type">类型 &amp;lt;type&amp;gt;&lt;/h2>
+&lt;ol>
+&lt;li>当一个提交为实现了新特性时，必须使用 &lt;code>feat&lt;/code> 类型。&lt;/li>
+&lt;li>当一个提交为修复了 bug 时，必须使用 &lt;code>fix&lt;/code> 类型。&lt;/li>
+&lt;/ol>
+&lt;h3 id="原文">原文&lt;/h3>
+&lt;p>Select the type of change that you're committing:&lt;/p>
+&lt;ul>
+&lt;li>feat: A new feature&lt;/li>
+&lt;li>fix: A bug fix&lt;/li>
+&lt;li>docs: Documentation only changes&lt;/li>
+&lt;li>style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)&lt;/li>
+&lt;li>refactor: A code change that neither fixes a bug nor adds a feature&lt;/li>
+&lt;li>perf: A code change that improves performance&lt;/li>
+&lt;li>test: Adding missing tests or correcting existing tests&lt;/li>
+&lt;li>build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)&lt;/li>
+&lt;li>ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)&lt;/li>
+&lt;li>chore: Other changes that don't modify src or test files&lt;/li>
+&lt;li>revert: Reverts a previous commit&lt;/li>
+&lt;/ul>
+&lt;h3 id="翻译">翻译&lt;/h3>
+&lt;p>本次修改是一个什么类型的 commit：&lt;/p>
+&lt;ul>
+&lt;li>feat: 增加新功能&lt;/li>
+&lt;li>fix: 修复 bug&lt;/li>
+&lt;/ul>
+&lt;p>上面这两种标签是固定的，以下都是根据 &lt;a href="https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines">Angular 约定&lt;/a> 推荐使用的标签：&lt;/p>
+&lt;ul>
+&lt;li>docs: 文档改动&lt;/li>
+&lt;li>style: 代码风格上的修改（对代码含义没有任何影响那种，比如空格、缩进、分号等）&lt;/li>
+&lt;li>refactor: 重构（代码内容变了，但既没有新增功能也没有修 bug）&lt;/li>
+&lt;li>perf: 性能优化&lt;/li>
+&lt;li>test: 测试相关&lt;/li>
+&lt;li>build: 构造工具以及外部依赖相关（比如 gulp, broccoli, npm）&lt;/li>
+&lt;li>ci: CI 相关配置文件及脚本（比如 Travis, Circle, BrowserStack, SauceLabs）&lt;/li>
+&lt;/ul>
+&lt;p>其他常用的标签：&lt;/p>
+&lt;ul>
+&lt;li>improvement: 对当前实现进行改进而没有新增功能或修复 bug 的提交&lt;/li>
+&lt;li>chore: 其他没有提到的不会动源代码或者测试文件的改动&lt;/li>
+&lt;li>revert: 撤销之前的 commit&lt;/li>
+&lt;/ul>
+&lt;h2 id="作用域-scope">作用域 &amp;lt;scope&amp;gt;&lt;/h2>
+&lt;p>可选项。&lt;br>
+必须是名词。&lt;br>
+描述改动的范围，想了下如果涉及多个模块还是分多次提交比较好，方便代码版本追踪和维护。&lt;/p>
+&lt;h2 id="简述-subject">简述 &amp;lt;subject&amp;gt;&lt;/h2>
+&lt;p>一句话，说重点。&lt;br>
+范式：&lt;/p>
+&lt;ul>
+&lt;li>动词开头，而且是第一人称一般现在时，&lt;code>change&lt;/code> YES，&lt;code>changed&lt;/code>/&lt;code>changes&lt;/code> NO&lt;/li>
+&lt;li>首字母小写&lt;/li>
+&lt;li>结尾不用标点&lt;/li>
+&lt;/ul>
+&lt;p>总之就是把它当短语。&lt;/p>
+&lt;h2 id="正文-body">正文 &amp;lt;body&amp;gt;&lt;/h2>
+&lt;p>可选项。&lt;br>
+本次改动的详细描述，可以写：&lt;/p>
+&lt;ul>
+&lt;li>改动之前的情况&lt;/li>
+&lt;li>改动之后的效果&lt;/li>
+&lt;li>修改动机&lt;/li>
+&lt;/ul>
+&lt;h2 id="脚注-footer">脚注 &amp;lt;footer&amp;gt;&lt;/h2>
+&lt;p>可选项。&lt;br>
+一般放的两类信息：&lt;/p>
+&lt;ul>
+&lt;li>如果是破坏性变更（break changes）要以 &lt;code>BREAKING CHANGE&lt;/code> 开头然后指明弃置的内容&lt;/li>
+&lt;li>影响 issues&lt;/li>
+&lt;/ul>
+&lt;p>如果有破坏性变更，第一行 &lt;code>:&lt;/code> 之前&lt;strong>可以&lt;/strong>接上 &lt;code>!&lt;/code> 提醒注意；但如果加了 &lt;code>!&lt;/code>，&lt;code>&amp;lt;body&amp;gt;&lt;/code> 或者 &lt;code>&amp;lt;footer&amp;gt;&lt;/code> 内&lt;strong>必须&lt;/strong>包含 &lt;code>BREAKING CHANGE: description&lt;/code>。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>以上范式不是定着好玩或者仅仅只是为了满足强迫症看着爽的。&lt;br>
+Conventional Commits 定出来除了约定俗成一看就懂以外，它真正 convenient 的地方在于如果坚持使用规范的话，可以直接根据 commit message 记录生成 changelog。&lt;/p>
+&lt;h2 id="相关工具">相关工具&lt;/h2>
+&lt;p>&lt;a href="https://github.com/commitizen/cz-cli">Commitizen&lt;/a>&lt;br>
+&lt;a href="https://github.com/damianopetrungaro/php-commitizen">PHP 版 Commitizen&lt;/a>&lt;br>
+&lt;a href="https://github.com/commitsar-app/commitsar">检查提交信息是否符合规范的工具&lt;/a> 用 Go 写的，支持在 CI 的 Docker 镜像中使用&lt;/p></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/git/" term="Git" label="Git"/><category scheme="https://ews.ink/tags/github/" term="Github" label="Github"/><category scheme="https://ews.ink/tags/commit/" term="commit" label="commit"/></entry><entry><title type="text">Markdown 语法简单指南</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/markdown-syntax/"/><id>https://ews.ink/tech/markdown-syntax/</id><updated>2020-10-31T11:23:07+00:00</updated><published>2020-07-29T15:23:06+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">灵感来源 本篇文章提供了一些能在 Hugo 的 content 文件中使用的基本 Markdown 语法的简单示例，同时也展示了基……</summary><content type="html">&lt;blockquote>
 &lt;p>&lt;a href="https://themes.gohugo.io//theme/hugo-theme-meme/post/markdown-syntax/">灵感来源&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>本篇文章提供了一些能在 Hugo 的 content 文件中使用的基本 Markdown 语法的简单示例，同时也展示了基础 HTML 元素在&lt;ruby>&lt;rb>本 Hugo 主题&lt;/rb>&lt;rp>（&lt;/rp>&lt;rt>MemE&lt;/rt>&lt;rp>）&lt;/rp>&lt;/ruby>中用 CSS 绘制后是什么效果。&lt;/p>
@@ -331,7 +416,7 @@ X&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span 
 &lt;p>鲁迅《致杨霁云》 1934.12.13 &lt;a href="https://ews.ink/tech/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/markdown/" term="Markdown" label="Markdown"/></entry><entry><title type="text">利用 Github Action 实现持续集成 / 自动部署 #2</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/blog-deploy-2/"/><id>https://ews.ink/tech/blog-deploy-2/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-07-02T16:49:24+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">通过 前文 的梳理我们弄清楚了完整流程，本篇文章将详细介绍具体如何实现。 首先简单介绍一下……</summary><content type="html">&lt;p>通过 &lt;a href="https://ews.ink/tech/blog-deploy-1/">前文&lt;/a> 的梳理我们弄清楚了完整流程，本篇文章将详细介绍具体如何实现。&lt;/p>
+&lt;/section></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/markdown/" term="Markdown" label="Markdown"/></entry><entry><title type="text">利用 Github Action 实现持续集成 / 自动部署 #2</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/blog-deploy-2/"/><id>https://ews.ink/tech/blog-deploy-2/</id><updated>2020-10-31T11:23:07+00:00</updated><published>2020-07-02T16:49:24+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">通过 前文 的梳理我们弄清楚了完整流程，本篇文章将详细介绍具体如何实现。 首先简单介绍一下……</summary><content type="html">&lt;p>通过 &lt;a href="https://ews.ink/tech/blog-deploy-1/">前文&lt;/a> 的梳理我们弄清楚了完整流程，本篇文章将详细介绍具体如何实现。&lt;/p>
 &lt;hr>
 &lt;p>首先简单介绍一下 Github Action 如何使用：&lt;br>
 在仓库根目录下建立 &lt;code>.github/workflows&lt;/code> 文件夹，这个文件夹里配置正确符合语法的工作流会根据条件自动执行。&lt;/p>
@@ -550,7 +635,7 @@ X&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">sup&lt;/span>&lt;span 
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>其实就是 &lt;code>build.yml&lt;/code> 中的第 4.5 步。&lt;/p>
-&lt;p>如果博客托管的地方不是云服务器，而是存储桶或者别的什么对象存储服务的话，随便搜索一下一般都找得到对应的 Github Action Repo，按照正确语法自行替换即可。&lt;/p></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/blog/" term="Blog" label="Blog"/><category scheme="https://ews.ink/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="https://ews.ink/tags/github-action/" term="Github Action" label="Github Action"/></entry><entry><title type="text">利用 Github Action 实现持续集成 / 自动部署 #1</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/blog-deploy-1/"/><id>https://ews.ink/tech/blog-deploy-1/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-07-02T14:34:40+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">废话不多说，直接简述一下我想实现的工作流： graph TD A(本地写作) --|命令行运行 `git push`| B[git push……</summary><content type="html">&lt;p>废话不多说，直接简述一下我想实现的工作流：&lt;/p>
+&lt;p>如果博客托管的地方不是云服务器，而是存储桶或者别的什么对象存储服务的话，随便搜索一下一般都找得到对应的 Github Action Repo，按照正确语法自行替换即可。&lt;/p></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/blog/" term="Blog" label="Blog"/><category scheme="https://ews.ink/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="https://ews.ink/tags/git/" term="Git" label="Git"/><category scheme="https://ews.ink/tags/github-action/" term="Github Action" label="Github Action"/></entry><entry><title type="text">利用 Github Action 实现持续集成 / 自动部署 #1</title><link rel="alternate" type="text/html" href="https://ews.ink/tech/blog-deploy-1/"/><id>https://ews.ink/tech/blog-deploy-1/</id><updated>2020-10-31T11:23:07+00:00</updated><published>2020-07-02T14:34:40+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">废话不多说，直接简述一下我想实现的工作流： graph TD A(本地写作) --|命令行运行 `git push`| B[git push……</summary><content type="html">&lt;p>废话不多说，直接简述一下我想实现的工作流：&lt;/p>
 &lt;div class="mermaid" align="center">
 graph TD
 A(本地写作) -->|命令行运行 `git push`| B[git push 动作]
@@ -605,7 +690,7 @@ H --> |将整个分发仓库同步到你的服务器 / 对象存储| I(博客更
 &lt;p>一系列补救工作：根据各种线索推理出更新出错部分的时间和标志，然后去写作仓库里翻找出需要的版本，回滚之后重新编译，把重新生成的静态文件上传，之后再把写作仓库回滚到最新版本。 &lt;a href="https://ews.ink/tech/blog-deploy-1/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/blog/" term="Blog" label="Blog"/><category scheme="https://ews.ink/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="https://ews.ink/tags/github-action/" term="Github Action" label="Github Action"/></entry><entry><title type="text">Always Sometimes Monsters</title><link rel="alternate" type="text/html" href="https://ews.ink/life/who-am-i/"/><id>https://ews.ink/life/who-am-i/</id><updated>2020-10-31T10:41:02+00:00</updated><published>2020-06-30T14:25:24+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">我这个人是个自私自利，一点也不纯粹，德行或许有亏，尚未脱离低级趣味，也未必有益于人民……</summary><content type="html">&lt;p>我这个人是个自私自利，一点也不纯粹，德行或许有亏，尚未脱离低级趣味，也未必有益于人民的，&lt;strong>普通人&lt;/strong>。&lt;/p>
+&lt;/section></content><category scheme="https://ews.ink/tech/" term="tech" label="tech"/><category scheme="https://ews.ink/tags/blog/" term="Blog" label="Blog"/><category scheme="https://ews.ink/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="https://ews.ink/tags/git/" term="Git" label="Git"/><category scheme="https://ews.ink/tags/github-action/" term="Github Action" label="Github Action"/></entry><entry><title type="text">Always Sometimes Monsters</title><link rel="alternate" type="text/html" href="https://ews.ink/life/who-am-i/"/><id>https://ews.ink/life/who-am-i/</id><updated>2020-10-31T11:23:07+00:00</updated><published>2020-06-30T14:25:24+08:00</published><author><name>Sumi</name><uri>https://ews.ink/</uri><email>po@ews.ink</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">我这个人是个自私自利，一点也不纯粹，德行或许有亏，尚未脱离低级趣味，也未必有益于人民……</summary><content type="html">&lt;p>我这个人是个自私自利，一点也不纯粹，德行或许有亏，尚未脱离低级趣味，也未必有益于人民的，&lt;strong>普通人&lt;/strong>。&lt;/p>
 &lt;hr>
 &lt;p>喜欢&lt;strong>折腾&lt;/strong>，喜欢研究 IT 技术。与什么方向或者什么语言都无关，我只是特别钟爱从零到一平地起高楼的无中生有。&lt;/p>
 &lt;p>我热爱创作。&lt;sup id="fnref:1">&lt;a href="https://ews.ink/life/who-am-i/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
