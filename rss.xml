@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Everybody Wants Some</title><link>https://ews.ink/</link><description>人傻又健忘，记点什么</description><generator>Hugo 0.73.0 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>po@ews.ink (Sumi)</managingEditor><webMaster>po@ews.ink (Sumi)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sat, 31 Oct 2020 11:47:40 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://ews.ink/rss.xml"/><item><title>Lordran - Let's Starve Together</title><link>https://ews.ink/game/dst-server-lordran/</link><guid isPermaLink="true">https://ews.ink/game/dst-server-lordran/</guid><pubDate>Sat, 31 Oct 2020 18:00:54 +0800</pubDate><author>po@ews.ink (Sumi)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>服务器使用的 mod 列表：&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048193561">Mods on Lordran&lt;/a>。&lt;br>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Everybody Wants Some</title><link>https://ews.ink/</link><description>人傻又健忘，记点什么</description><generator>Hugo 0.73.0 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>po@ews.ink (Sumi)</managingEditor><webMaster>po@ews.ink (Sumi)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sun, 01 Nov 2020 07:31:05 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://ews.ink/rss.xml"/><item><title>Lordran - Let's Starve Together</title><link>https://ews.ink/game/dst-server-lordran/</link><guid isPermaLink="true">https://ews.ink/game/dst-server-lordran/</guid><pubDate>Sat, 31 Oct 2020 18:00:54 +0800</pubDate><author>po@ews.ink (Sumi)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;blockquote>
+&lt;p>Sumi 和他的小伙伴们的饥荒服务器&lt;/p>
+&lt;/blockquote>
+&lt;p>Lordran 使用的 mod 列表：&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048193561">Mods on Lordran&lt;/a>。&lt;br>
 包括下列 mod：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=378160973">Global Positions&lt;/a> 全球定位
@@ -36,39 +39,39 @@
 &lt;h3 id="原文">原文&lt;/h3>
 &lt;p>Select the type of change that you're committing:&lt;/p>
 &lt;ul>
-&lt;li>feat: A new feature&lt;/li>
-&lt;li>fix: A bug fix&lt;/li>
-&lt;li>docs: Documentation only changes&lt;/li>
-&lt;li>style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)&lt;/li>
-&lt;li>refactor: A code change that neither fixes a bug nor adds a feature&lt;/li>
-&lt;li>perf: A code change that improves performance&lt;/li>
-&lt;li>test: Adding missing tests or correcting existing tests&lt;/li>
-&lt;li>build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)&lt;/li>
-&lt;li>ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)&lt;/li>
-&lt;li>chore: Other changes that don't modify src or test files&lt;/li>
-&lt;li>revert: Reverts a previous commit&lt;/li>
+&lt;li>&lt;code>feat&lt;/code>: A new feature&lt;/li>
+&lt;li>&lt;code>fix&lt;/code>: A bug fix&lt;/li>
+&lt;li>&lt;code>docs&lt;/code>: Documentation only changes&lt;/li>
+&lt;li>&lt;code>style&lt;/code>: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)&lt;/li>
+&lt;li>&lt;code>refactor&lt;/code>: A code change that neither fixes a bug nor adds a feature&lt;/li>
+&lt;li>&lt;code>perf&lt;/code>: A code change that improves performance&lt;/li>
+&lt;li>&lt;code>test&lt;/code>: Adding missing tests or correcting existing tests&lt;/li>
+&lt;li>&lt;code>build&lt;/code>: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)&lt;/li>
+&lt;li>&lt;code>ci&lt;/code>: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)&lt;/li>
+&lt;li>&lt;code>chore&lt;/code>: Other changes that don't modify src or test files&lt;/li>
+&lt;li>&lt;code>revert&lt;/code>: Reverts a previous commit&lt;/li>
 &lt;/ul>
 &lt;h3 id="翻译">翻译&lt;/h3>
 &lt;p>本次修改是一个什么类型的 commit：&lt;/p>
 &lt;ul>
-&lt;li>feat: 增加新功能&lt;/li>
-&lt;li>fix: 修复 bug&lt;/li>
+&lt;li>&lt;code>feat&lt;/code>: 增加新功能&lt;/li>
+&lt;li>&lt;code>fix&lt;/code>: 修复 bug&lt;/li>
 &lt;/ul>
 &lt;p>上面这两种标签是固定的，以下都是根据 &lt;a href="https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines">Angular 约定&lt;/a> 推荐使用的标签：&lt;/p>
 &lt;ul>
-&lt;li>docs: 文档改动&lt;/li>
-&lt;li>style: 代码风格上的修改（对代码含义没有任何影响那种，比如空格、缩进、分号等）&lt;/li>
-&lt;li>refactor: 重构（代码内容变了，但既没有新增功能也没有修 bug）&lt;/li>
-&lt;li>perf: 性能优化&lt;/li>
-&lt;li>test: 测试相关&lt;/li>
-&lt;li>build: 构造工具以及外部依赖相关（比如 gulp, broccoli, npm）&lt;/li>
-&lt;li>ci: CI 相关配置文件及脚本（比如 Travis, Circle, BrowserStack, SauceLabs）&lt;/li>
+&lt;li>&lt;code>docs&lt;/code>: 文档改动&lt;/li>
+&lt;li>&lt;code>style&lt;/code>: 代码风格上的修改（对代码含义没有任何影响那种，比如空格、缩进、分号等）&lt;/li>
+&lt;li>&lt;code>refactor&lt;/code>: 重构（代码内容变了，但既没有新增功能也没有修 bug）&lt;/li>
+&lt;li>&lt;code>perf&lt;/code>: 性能优化&lt;/li>
+&lt;li>&lt;code>test&lt;/code>: 测试相关&lt;/li>
+&lt;li>&lt;code>build&lt;/code>: 构造工具以及外部依赖相关（比如 gulp, broccoli, npm）&lt;/li>
+&lt;li>&lt;code>ci&lt;/code>: CI 相关配置文件及脚本（比如 Travis, Circle, BrowserStack, SauceLabs）&lt;/li>
 &lt;/ul>
 &lt;p>其他常用的标签：&lt;/p>
 &lt;ul>
-&lt;li>improvement: 对当前实现进行改进而没有新增功能或修复 bug 的提交&lt;/li>
-&lt;li>chore: 其他没有提到的不会动源代码或者测试文件的改动&lt;/li>
-&lt;li>revert: 撤销之前的 commit&lt;/li>
+&lt;li>&lt;code>improvement&lt;/code>: 对当前实现进行改进而没有新增功能或修复 bug 的提交&lt;/li>
+&lt;li>&lt;code>chore&lt;/code>: 其他没有提到的不会动源代码或者测试文件的改动&lt;/li>
+&lt;li>&lt;code>revert&lt;/code>: 撤销之前的 commit&lt;/li>
 &lt;/ul>
 &lt;h2 id="作用域-scope">作用域 &amp;lt;scope&amp;gt;&lt;/h2>
 &lt;p>可选项。&lt;br>
