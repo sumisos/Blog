@@ -15,7 +15,7 @@ jobs:
     - name: 2. Deploy to Server via Rsync
       uses: burnett01/rsync-deployments@4.1
       with:
-        switches: -avzr --delete --exclude=".git" --exclude=".github" --exclude=.well-known
+        switches: -avzr --delete --exclude=".git" --exclude=".github" --exclude="CNAME" --exclude=".well-known"
         path: ./
         remote_path: ${{ secrets.DEPLOY_TARGET }}
         remote_host: ${{ secrets.DEPLOY_HOST }}
