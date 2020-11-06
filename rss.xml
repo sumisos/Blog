@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Everybody Wants Some</title><link>https://ews.ink/</link><description>人傻又健忘，记点什么</description><generator>Hugo 0.77.0 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>po@ews.ink (Sumi)</managingEditor><webMaster>po@ews.ink (Sumi)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Thu, 05 Nov 2020 15:41:19 +0800</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://ews.ink/rss.xml"/><item><title>Lordran - Let's Starve Together</title><link>https://ews.ink/game/dst-server-lordran/</link><guid isPermaLink="true">https://ews.ink/game/dst-server-lordran/</guid><pubDate>Sat, 31 Oct 2020 18:00:54 +0800</pubDate><author>po@ews.ink (Sumi)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>Sumi 和他的小伙伴们的饥荒服务器&lt;br>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Everybody Wants Some</title><link>https://ews.ink/</link><description>人傻又健忘，记点什么</description><generator>Hugo 0.77.0 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>po@ews.ink (Sumi)</managingEditor><webMaster>po@ews.ink (Sumi)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Fri, 06 Nov 2020 23:13:16 +0800</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://ews.ink/rss.xml"/><item><title>Lordran - Let's Starve Together</title><link>https://ews.ink/game/dst-server-lordran/</link><guid isPermaLink="true">https://ews.ink/game/dst-server-lordran/</guid><pubDate>Sat, 31 Oct 2020 18:00:54 +0800</pubDate><author>po@ews.ink (Sumi)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>Sumi 和他的小伙伴们的饥荒服务器&lt;br>
 &lt;img src="https://img.shields.io/badge/dst.game.osrp.run-21041-brightgreen" class="no-zoom no-center" />&lt;/p>
 &lt;blockquote>
 &lt;p>游戏信息&lt;br>
-&lt;a href="https://store.steampowered.com/app/322330/Dont_Starve_Together/">&lt;img src="https://img.shields.io/badge/Steam-Don%27t%20Starve%20Together-blue?logo=steam&amp;logoColor=white" class="no-zoom no-center" />&lt;/a> &lt;a href="https://forums.kleientertainment.com/game-updates/dst/">&lt;img src="https://img.shields.io/badge/Game%20Version-v438182-blue" class="no-zoom no-center" />&lt;/a>&lt;/p>
+&lt;a href="https://store.steampowered.com/app/322330/Dont_Starve_Together/">&lt;img src="https://img.shields.io/badge/Steam-Don%27t%20Starve%20Together-blue?logo=steam&amp;logoColor=white" class="no-zoom no-center" />&lt;/a> &lt;a href="https://forums.kleientertainment.com/game-updates/dst/">&lt;img src="https://img.shields.io/badge/Game%20Version-v438711-blue" class="no-zoom no-center" />&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://img.shields.io/badge/Lordran-Let%27s_Starve_Together-00B0D8" class="no-zoom no-center" /> 使用的 mod 列表：&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2048193561">Mods on Lordran&lt;/a>。&lt;br>
 包括下列 mod：&lt;/p>
@@ -22,7 +22,17 @@
 &lt;li>&lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2032577827">更智能的雪球机&lt;/a> 关闭状态检测到火情自动开启 / 不会扑灭火堆&lt;/li>
 &lt;/ul>
 &lt;h3 id="相关设置">相关设置&lt;/h3>
-&lt;h4 id="打开游戏自动进入服务器">打开游戏自动进入服务器&lt;/h4>
+&lt;h4 id="控制台直连服务器">控制台直连服务器&lt;/h4>
+&lt;p>按 ``` 打开控制台，输入：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-lua" data-lang="lua">&lt;span class="n">c_connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;dst.game.osrp.run&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">21041&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;密码&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="打开游戏自动进入服务器">打开游戏自动进入服务器&lt;/h4>
 &lt;p>右键 Steam 库存中的「Don't Starve Together」，选择「属性」，默认的常规选项卡中有一个叫 &lt;code>设置启动选项…&lt;/code> 的按钮，输入&lt;/p>
 &lt;pre>&lt;code>+connect dst.game.osrp.run:21041 +password &amp;quot;密码&amp;quot;
 &lt;/code>&lt;/pre>&lt;p>点击确定保存。&lt;br>
